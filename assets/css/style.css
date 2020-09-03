@@ -9,53 +9,95 @@ body {
     justify-content: center;
     align-items: center;
 }
-.wrapper {
-    background-color: white;
-    border: 1px solid red;
-    width: 650px;
-    height: auto;
-}
 
-.wrapper .top-half {
+
+.card {
     background-color: white;
     text-align: left;
-    width: 100%;
+    width: 650px;
     margin: 40px;
-    
+    display: flex;
+   
 }
 
-.top-half h1 {
+.card-title {
     color:hsl(179, 62%, 43%);
     font-size: 1.5rem;
     letter-spacing: .1rem;
+    margin: 30px;
     
 }
 
-.top-half h3 {
+.card-subtitle {
     color:hsl(71, 73%, 54%);
     font-size: 1rem;
-    margin-top: 20px;
+    margin: 20px 30px;
     letter-spacing: .1rem;
 }
 
-
-.top-half p {
+.card p {
     color: hsl(218, 22%, 67%);
     font-size:.8rem;
-    margin-top: 20px;
+    margin: 5px 30px 30px;
     letter-spacing: .1rem;
+    line-height: 1.5rem;
 }
 
 .left-half {
-    
+    box-sizing: border-box;
     width:50%;
-    float: left;
-    background-color: hsl(218, 22%, 67%);
+    
+    background-color: hsl(179, 62%, 43%);
+    padding: 0;
     
 }
 
+.left-half h5 {
+    margin: 20px 30px;
+    color: white;
+}
+
+.left-half p {
+    margin: 20px 30px 5px;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.left-half span {
+    font-size: 2rem;
+    margin-right: 20px;
+    color:white;
+}
+
+.left-half .btn {
+    width: 240px;
+    position: relative;
+    justify-items: center;
+    align-content: center;
+    margin: 30px 30px;
+    background-color: hsl(71, 73%, 54%);
+    overflow: hidden;
+}
 .right-half {
+    box-sizing: border-box;
     width:50%;
-   float: right;
-    background-color: blue;
+    
+    background-color: hsl(179, 62%, 43%);
+    padding: 0;
+}
+
+.right-half h5 {
+    margin: 20px 30px;
+    color: white;
+}
+
+.right-half p {
+    margin:22px;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: .01rem;
 }
