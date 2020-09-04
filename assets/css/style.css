@@ -17,9 +17,7 @@ body {
     text-align: left;
     width: 650px;
     margin: 40px;
-    
-    
-    box-shadow: 5px 5px rgba(218, 207, 207, 0.925);
+    box-shadow: 5px 5px hsla(200, 22%, 92%, 0.726);
 }
 
 
@@ -81,6 +79,7 @@ body {
     margin: 30px 40px;
     background-color: hsl(71, 73%, 54%);
     overflow: hidden;
+    color: white;
 }
 .right-half {
     
